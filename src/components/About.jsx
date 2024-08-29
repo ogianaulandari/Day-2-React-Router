@@ -3,9 +3,9 @@ import React from 'react';
 const About = () => {
   return (
     <div className="bg-white w-full h-screen flex flex-col">
-      <div className="flex flex-row items-center justify-center flex-1">
-        <div className="text-center flex-1 p-4">
-        <h1 className="font-bold text-4xl mb-4 text-center">
+      <div className="flex flex-row justify-center flex-1">
+        <div className="flex-1 p-10 max-w-lg">
+        <h1 className="font-bold text-4xl mb-4">
             Visi Kami 
           </h1>
           <p className="text-sm mb-8">
@@ -14,7 +14,7 @@ const About = () => {
           <h1 className="font-bold text-4xl mb-4">
             Misi Kami 
           </h1>
-          <ul className='list-disc list-inside text-sm text-left mx-auto max-w-xs'>
+          <ul className="list-disc list-inside text-sm text-left mx-auto max-w-xl">
             <li>Meningkatkan kualitas produk dan layanan UMKM.</li>
             <li>Memperluas akses pasar untuk UMKM melalui platform digital.</li>
             <li>Menghubungkan UMKM dengan perusahaan BUMN dan swasta.</li>
