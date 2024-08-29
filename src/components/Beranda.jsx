@@ -15,7 +15,7 @@ const Beranda = () => {
           </p>
         </div>
         <div className="flex-1 flex justify-center">
-          <img src="./assets/home.jpg" alt="Benefit" className="w-3/4 h-auto object-contain" />
+          <img src="./assets/home.jpg" alt="Benefit" className="w-2/4 h-auto object-contain" />
         </div>
       </div>
       <footer className="bg-gray-200 text-black text-center py-4">
