@@ -5,7 +5,7 @@ import About from './components/About';
 import Help from './components/Help';
 import Media from './components/Media';
 import Contact from './components/Contact';
-import Navbar from './components/Navbar';
+import Navbar from '../Navbar';
 
 function App() {
   const [isLogIn, setIsLogIn] =useState(false);
